@@ -17,7 +17,6 @@
   ******************************************************************************
   */
 /* USER CODE END Header */
-drerer
 /* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef __MAIN_H
 #define __MAIN_H
