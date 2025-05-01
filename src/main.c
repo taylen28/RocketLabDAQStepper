@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "stm32f3xx_hal.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -101,7 +102,6 @@ int main(void)
   MX_TIM3_Init();
   MX_USART2_UART_Init();
   MX_USB_PCD_Init();
-  HAL_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
