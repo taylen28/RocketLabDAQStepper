@@ -1,6 +1,10 @@
+//Driver for MCP9600
+//Contains functions to read hot junction and Cold junction
+// 
+
 #include "MCP9600.h"
 
-uint8_t MCP9600_Init(I2C_HandleTypeDef *hi2c)
+uint8_t MCP9600_Init(I2C_HandleTypeDef *hi2c) //constructor like C++
 {
     uint8_t id =  MCP9600_ReadID(hi2c);
     return (id == 0x40);
